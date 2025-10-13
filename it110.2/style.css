@@ -1,0 +1,123 @@
+        :root {
+            --color-bg-light: #FDF3F5;
+            --color-section-light: #FADDE1;
+            --color-accent-dark: #A02040; 
+            --color-heart: #ff4d6e;
+            --color-bubble-light: #FFF8DC; 
+            --color-bubble-border: #db2e59; 
+        }
+        
+        /* Apply primary font and colors */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--color-bg-light);
+            color: var(--color-accent-dark);
+            min-height: 100vh;
+        }
+        
+        /* Pixel font for headings and navigational elements */
+        .pixel-font {
+            font-family: 'Press Start 2P', cursive;
+        }
+        
+        /* Custom section shadow matching the screenshot style */
+        .section-shadow {
+            box-shadow: 10px 10px 0px 0px var(--color-accent-dark);
+            border: 2px solid var(--color-accent-dark);
+        }
+
+        /* Navigation link color rules */
+        .nav-link {
+            transition: all 0.15s ease-in-out;
+            color: var(--color-accent-dark);
+        }
+        
+        .nav-link:hover {
+            color: white;
+            background-color: var(--color-accent-dark);
+        }
+
+        .nav-link.active-view {
+            color: white;
+            background-color: var(--color-accent-dark);
+            box-shadow: 0 0 5px 2px rgba(229, 45, 91, 0.5);
+        }
+
+        /* --- Contact Card Hover Effect Implementation --- */
+        .contact-card {
+            height: 200px;
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .contact-details {
+            transform: translateY(100%);
+            opacity: 0;
+            transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+        }
+        
+        .contact-card:hover {
+            height: 250px;
+            box-shadow: 0px 10px 20px -5px rgba(160, 32, 64, 0.5);
+            z-index: 10;
+        }
+        
+        .contact-card:hover .contact-details {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        
+        /* Style for editable areas */
+        .editable-area {
+            min-height: 20px;
+        }
+        .editable-area:focus {
+            outline: none;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* --- PIXEL HEARTS AS BACKGROUND --- */
+
+        @keyframes pulse {
+            0% { opacity: 0.7; transform: scale(1) rotate(0deg); }
+            50% { opacity: 1.0; transform: scale(1.1) rotate(5deg); }
+            100% { opacity: 0.7; transform: scale(1) rotate(0deg); }
+        }
+
+        .heart-background-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; 
+            pointer-events: none;
+            z-index: 1;
+            opacity: 0.7;
+        }
+
+        .heart-pixel-group {
+            position: absolute;
+            width: 16px;
+            height: 16px; 
+            animation: pulse 1.5s infinite alternate ease-in-out;
+        }
+
+        .heart-pixel {
+            width: 8px; height: 8px;
+            background-color: var(--color-heart);
+            position: absolute;
+        }
+
+        /* 3-block heart shape using 8px blocks */
+        .heart-pixel-group > .p1 { top: 0; left: 0; }
+        .heart-pixel-group > .p2 { top: 0; left: 8px; }
+        .heart-pixel-group > .p3 { top: 8px; left: 4px; }
+
+        /* Adjusted positions for hearts */
+        .heart-background-container .heart-1-container { top: 15%; left: 10%; transform: scale(2); animation-delay: 0s; }
+        .heart-background-container .heart-2-container { bottom: 20%; right: 15%; transform: scale(2.5); animation-delay: 0.5s; }
+        .heart-background-container .heart-3-container { top: 50%; left: 40%; transform: scale(1.8); animation-delay: 1s; }
+        .heart-background-container .heart-4-container { bottom: 5%; left: 20%; transform: scale(2.2); animation-delay: 0.7s; }
+        .heart-background-container .heart-5-container { top: 30%; right: 5%; transform: scale(1.5); animation-delay: 0.3s; }
