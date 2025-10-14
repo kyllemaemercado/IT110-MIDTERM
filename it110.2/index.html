@@ -1,177 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Quote Generator</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="p-4 sm:p-8">
-<header class="max-w-6xl mx-auto rounded-full bg-white section-shadow p-2 mb-10">
-        <nav id="main-nav" class="flex justify-center space-x-3 sm:space-x-6 pixel-font text-xs sm:text-sm">
-            <a href="#home" data-view="hub-view" data-target-id="home" class="nav-link px-2 py-2 sm:px-4 sm:py-2 rounded-full">HOME</a>
-            <a href="#contact" data-view="hub-view" data-target-id="contact" class="nav-link px-2 py-2 sm:px-4 sm:py-2 rounded-full">CONTACT US</a>
-            <a href="#feature" data-view="hub-view" data-target-id="feature-description-section" class="nav-link px-2 py-2 sm:px-4 sm:py-2 rounded-full">FEATURE</a>
-            <a href="#generator" data-view="app-view" data-target-id="app-view" class="nav-link px-2 py-2 sm:px-4 sm:py-2 rounded-full">APP</a>
-        </nav>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="p-4 sm:p-8">
+    <header
+      class="max-w-6xl mx-auto rounded-full bg-white section-shadow p-2 mb-10"
+    >
+      <nav
+        id="main-nav"
+        class="flex justify-center space-x-3 sm:space-x-6 pixel-font text-xs sm:text-sm"
+      >
+        <a
+          href="#home"
+          data-view="hub-view"
+          data-target-id="home"
+          class="nav-link px-2 py-2 sm:px-4 sm:py-2 rounded-full"
+          >HOME</a
+        >
+        <a
+          href="#contact"
+          data-view="hub-view"
+          data-target-id="contact"
+          class="nav-link px-2 py-2 sm:px-4 sm:py-2 rounded-full"
+          >CONTACT US</a
+        >
+        <a
+          href="#feature"
+          data-view="hub-view"
+          data-target-id="feature-description-section"
+          class="nav-link px-2 py-2 sm:px-4 sm:py-2 rounded-full"
+          >FEATURE</a
+        >
+        <a
+          href="#generator"
+          data-view="app-view"
+          data-target-id="app-view"
+          class="nav-link px-2 py-2 sm:px-4 sm:py-2 rounded-full"
+          >APP</a
+        >
+      </nav>
     </header>
 
     <main class="max-w-6xl mx-auto space-y-12">
-
-    <div id="hub-view" class="space-y-12">
-            
-    <section id="home" class="bg-white p-6 sm:p-10 rounded-xl section-shadow relative overflow-hidden">
-                
-                    <div class="heart-background-container">
-                    <div class="heart-pixel-group heart-1-container"><div class="heart-pixel p1"></div><div class="heart-pixel p2"></div><div class="heart-pixel p3"></div></div>
-                    <div class="heart-pixel-group heart-2-container"><div class="heart-pixel p1"></div><div class="heart-pixel p2"></div><div class="heart-pixel p3"></div></div>
-                    <div class="heart-pixel-group heart-3-container"><div class="heart-pixel p1"></div><div class="heart-pixel p2"></div><div class="heart-pixel p3"></div></div>
-                    <div class="heart-pixel-group heart-4-container"><div class="heart-pixel p1"></div><div class="heart-pixel p2"></div><div class="heart-pixel p3"></div></div>
-                    <div class="heart-pixel-group heart-5-container"><div class="heart-pixel p1"></div><div class="heart-pixel p2"></div><div class="heart-pixel p3"></div></div>
-                </div>
-
-              <div class="text-center relative z-20 pt-4 pb-8">
-                    <h1 class="pixel-font text-3xl sm:text-5xl mb-4 leading-snug">
-                        WELCOME <br>TO OUR GROUP PROJECT!
-                    </h1>
-                    <div id="welcome-text" contenteditable="true" class="space-y-4 text-sm sm:text-lg editable-area p-3 rounded-lg border-2 border-dashed border-transparent hover:border-indigo-500 transition duration-150 bg-white bg-opacity-80">
-                        <p>We are a collective of passionate developers united by a singular purpose: to build, innovate, and solve complex problems with elegant code.
-                        <br>We don't just write code; we architect scalable, user-centric solutions designed to drive real-world impact and define the next wave of digital transformation.</P>
-                    </div>
-                </div>
-                
-            </section>
-
-    
-            
-            <section id="feature-description-section" class="bg-white p-6 sm:p-10 rounded-xl section-shadow">
-                <h2 class="pixel-font text-xl sm:text-2xl text-center mb-8">
-                    PROJECT FEATURE: RANDOM QUOTE GENERATOR
-                </h2>
-                <div contenteditable="true" class="mb-8 text-center text-gray-700 editable-area p-3 rounded-lg border-2 border-dashed border-transparent hover:border-indigo-500 transition duration-150">
-                    <p class="text-sm sm:text-lg mb-4">
-                        This project djshfjdksfhjslfndnsfmfhsudjfhsfdskfjhdslfhdsfdjsfsdk
-                    </p>
-                    <p class="font-bold uppercase text-sm sm:text-lg mb-2">Technical Goals Achieved:</p>
-                    <ul class="list-disc list-inside inline-block text-left text-sm">
-                        <li>GIVE YOU A MOTIVATIONAL QUOTE</li>
-                        <li>INSPIRE YOU FROM EVERYTHING</li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        
-        <!-- 2. APP VIEW --><section id="app-view" class="bg-white p-6 sm:p-10 rounded-xl section-shadow hidden">
-            <h2 class="pixel-font text-xl sm:text-2xl text-center mb-8">
-                GENERATE INSPIRATION!
-            </h2>
-
-            <!-- Quote Generator Area --><div class="text-center mt-12 mb-10">
-                <div id="quote-display" class="bg-white p-4 sm:p-6 rounded-lg border-4 border-dashed border-gray-400 min-h-[100px] flex flex-col justify-center items-center italic text-base sm:text-xl shadow-inner mb-6 transition duration-300">
-                    Click 'Get Quote' to load an inspiring message!
-                </div>
-                <div id="quote-author" class="text-right font-semibold text-sm sm:text-lg pr-4 transition duration-300">— Welcome</div>
+      <div id="hub-view" class="space-y-12">
+        <section
+          id="home"
+          class="bg-white p-6 sm:p-10 rounded-xl section-shadow relative overflow-hidden"
+        >
+          <div class="heart-background-container">
+            <div class="heart-pixel-group heart-1-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
             </div>
-
-            <div class="flex justify-center">
-                <button id="quote-button" class="text-white pixel-font px-6 sm:px-8 py-3 sm:py-4 rounded-full transition duration-300 hover:opacity-90 flex items-center space-x-3 section-shadow" style="background-color: var(--color-accent-dark);">
-                    <span>GET NEW QUOTE</span>
-                    <i class="fas fa-arrow-right"></i>
-                </button>
+            <div class="heart-pixel-group heart-2-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
             </div>
+            <div class="heart-pixel-group heart-3-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+            <div class="heart-pixel-group heart-4-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+            <div class="heart-pixel-group heart-5-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+          </div>
+
+          <div class="text-center relative z-20 pt-4 pb-8">
+            <h1 class="pixel-font text-3xl sm:text-5xl mb-4 leading-snug">
+              WELCOME <br />TO OUR GROUP PROJECT!
+            </h1>
+            <div
+              id="welcome-text"
+              contenteditable="true"
+              class="space-y-4 text-sm sm:text-lg editable-area p-3 rounded-lg border-2 border-dashed border-transparent hover:border-indigo-500 transition duration-150 bg-white bg-opacity-80"
+            >
+              <p>
+                We are a collective of passionate developers united by a
+                singular purpose: to build, innovate, and solve complex problems
+                with elegant code. <br />We don't just write code; we architect
+                scalable, user-centric solutions designed to drive real-world
+                impact and define the next wave of digital transformation.
+              </p>
+            </div>
+          </div>
         </section>
-        <!-- 3. CONTACT US VIEW -->
-          <section id="contact" class="p-6">
-                <h2 class="pixel-font text-xl sm:text-2xl text-center mb-10">
-                    MEMBER OF THE TEAM:
-                </h2>
-                <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
 
-                    <!-- Contact Card 1 -->
-                    <div class="contact-card bg-white p-4 rounded-xl section-shadow flex flex-col items-center">
-                        <div class="w-16 h-16 sm:w-24 sm:h-24 bg-gray-200 rounded-full mb-3 mt-1 flex items-center justify-center text-xs font-semibold text-gray-500">
-                            <img src="images/mercado.png" alt="Kylle's Photo" class="w-full h-full object-cover rounded-full">
-                        </div>
-                        <h3 class="pixel-font text-sm sm:text-lg mb-2">AIRAH MONTILLANO</h3>
-                        <div class="contact-details absolute bottom-0 left-0 w-full bg-white p-4 pt-1 flex flex-col items-center">
-                            <p class="text-xs text-gray-600 mb-2 text-center editable-area hover:border-indigo-500 border-2 border-transparent rounded-md" contenteditable="true">
-                                <span class="font-bold">Role:</span> chuchu
-                                <br> <span class="text-xs">airah@gmail.com</span>
-                            </p>
-                            <div class="flex space-x-4 text-base sm:text-lg">
-                                <a href="#" class="hover:text-pink-600"><i class="fab fa-facebook"></i></a>
-                                <a href="#" class="hover:text-pink-600"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="hover:text-pink-600"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Contact Card 2 -->
-                    <div class="contact-card bg-white p-4 rounded-xl section-shadow flex flex-col items-center">
-                        <div class="w-16 h-16 sm:w-24 sm:h-24 bg-gray-200 rounded-full mb-3 mt-1 flex items-center justify-center text-xs font-semibold text-gray-500">
-                        <img src="images/mercado.png" alt="Kylle's Photo" class="w-full h-full object-cover rounded-full">
+        <section
+          id="feature-description-section"
+          class="bg-white p-6 sm:p-10 rounded-xl section-shadow"
+        >
+          <h2 class="pixel-font text-xl sm:text-2xl text-center mb-8">
+            PROJECT FEATURE: RANDOM QUOTE GENERATOR
+          </h2>
+          <div
+            contenteditable="true"
+            class="mb-8 text-center text-gray-700 editable-area p-3 rounded-lg border-2 border-dashed border-transparent hover:border-indigo-500 transition duration-150"
+          >
+            <p class="text-sm sm:text-lg mb-4">
+              This project djshfjdksfhjslfndnsfmfhsudjfhsfdskfjhdslfhdsfdjsfsdk
+            </p>
+            <p class="font-bold uppercase text-sm sm:text-lg mb-2">
+              Technical Goals Achieved:
+            </p>
+            <ul class="list-disc list-inside inline-block text-left text-sm">
+              <li>GIVE YOU A MOTIVATIONAL QUOTE</li>
+              <li>INSPIRE YOU FROM EVERYTHING</li>
+            </ul>
+          </div>
+        </section>
+      </div>
 
-                        </div>
-                        <h3 class="pixel-font text-sm sm:text-lg mb-2">MARIA POLINTAN</h3>
-                        <div class="contact-details absolute bottom-0 left-0 w-full bg-white p-4 pt-1 flex flex-col items-center">
-                            <p class="text-xs text-gray-600 mb-2 text-center editable-area hover:border-indigo-500 border-2 border-transparent rounded-md" contenteditable="true">
-                                <span class="font-bold">Role:</span> chuchu
-                                <br> <span class="text-xs">maria@gmail.com</span>
-                            </p>
-                            <div class="flex space-x-4 text-base sm:text-lg">
-                                <a href="#" class="hover:text-pink-600"><i class="fab fa-facebook"></i></a>
-                                <a href="#" class="hover:text-pink-600"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="hover:text-pink-600"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
+      <!-- 2. APP VIEW -->
+      <section
+        id="app-view"
+        class="bg-white p-6 sm:p-10 rounded-xl section-shadow hidden"
+      >
+        <h2 class="pixel-font text-xl sm:text-2xl text-center mb-8">
+          GENERATE INSPIRATION!
+        </h2>
 
-                    <!-- Contact Card 3 -->
-                    <div class="contact-card bg-white p-4 rounded-xl section-shadow flex flex-col items-center">
-                        <div class="w-16 h-16 sm:w-24 sm:h-24 bg-gray-200 rounded-full mb-3 mt-1 flex items-center justify-center text-xs font-semibold text-gray-500">
-                        <img src="images/mercado.png" alt="Kylle's Photo" class="w-full h-full object-cover rounded-full">
+        <!-- Quote Generator Area -->
+        <div class="text-center mt-12 mb-10">
+          <div
+            id="quote-display"
+            class="bg-white p-4 sm:p-6 rounded-lg border-4 border-dashed border-gray-400 min-h-[100px] flex flex-col justify-center items-center italic text-base sm:text-xl shadow-inner mb-6 transition duration-300"
+          >
+            Click 'Get Quote' to load an inspiring message!
+          </div>
+          <div
+            id="quote-author"
+            class="text-right font-semibold text-sm sm:text-lg pr-4 transition duration-300"
+          >
+            — Welcome
+          </div>
+        </div>
 
-                        </div>
-                        <h3 class="pixel-font text-sm sm:text-lg mb-2">RAM MELA</h3>
-                        <div class="contact-details absolute bottom-0 left-0 w-full bg-white p-4 pt-1 flex flex-col items-center">
-                            <p class="text-xs text-gray-600 mb-2 text-center editable-area hover:border-indigo-500 border-2 border-transparent rounded-md" contenteditable="true">
-                                <span class="font-bold">Role:</span>chuchu
-                                <br> <span class="text-xs">ram@gmail.com</span>
-                            </p>
-                            <div class="flex space-x-4 text-base sm:text-lg">
-                                <a href="#" class="hover:text-pink-600"><i class="fab fa-facebook"></i></a>
-                                <a href="#" class="hover:text-pink-600"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="hover:text-pink-600"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="flex justify-center">
+          <button
+            id="quote-button"
+            class="text-white pixel-font px-6 sm:px-8 py-3 sm:py-4 rounded-full transition duration-300 hover:opacity-90 flex items-center space-x-3 section-shadow"
+            style="background-color: var(--color-accent-dark)"
+          >
+            <span>GET NEW QUOTE</span>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+      <!-- 3. CONTACT US VIEW -->
+      <section id="contact" class="p-6">
+        <h2 class="pixel-font text-xl sm:text-2xl text-center mb-10">
+          MEMBER OF THE TEAM:
+        </h2>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          <!-- Contact Card 1 -->
+          <div
+            class="contact-card bg-white p-4 rounded-xl section-shadow flex flex-col items-center"
+          >
+            <div
+              class="w-16 h-16 sm:w-24 sm:h-24 bg-gray-200 rounded-full mb-3 mt-1 flex items-center justify-center text-xs font-semibold text-gray-500"
+            >
+              <img
+                src="images/montillano.jpg"
+                alt="Kylle's Photo"
+                class="w-full h-full object-cover rounded-full"
+              />
+            </div>
+            <h3 class="pixel-font text-sm sm:text-lg mb-2">AIRAH MONTILLANO</h3>
+            <div
+              class="contact-details absolute bottom-0 left-0 w-full bg-white p-4 pt-1 flex flex-col items-center"
+            >
+              <p
+                class="text-xs text-gray-600 mb-2 text-center editable-area hover:border-indigo-500 border-2 border-transparent rounded-md"
+                contenteditable="true"
+              >
+                <span class="font-bold">Role:</span> Tester/QA <br />
+                <span class="text-xs"
+                  >airahnichole.montillano2000@gmail.com</span
+                >
+              </p>
+              <div class="flex space-x-4 text-base sm:text-lg">
+                <a href="#" class="hover:text-pink-600"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="#" class="hover:text-pink-600"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="hover:text-pink-600"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
 
-                    <!-- Contact Card 4 -->
-                    <div class="contact-card bg-white p-4 rounded-xl section-shadow flex flex-col items-center">
-                        <div class="w-16 h-16 sm:w-24 sm:h-24 bg-gray-200 rounded-full mb-3 mt-1 flex items-center justify-center text-xs font-semibold text-gray-500">
-                            <img src="images/mercado.png" alt="Kylle's Photo" class="w-full h-full object-cover rounded-full">
-                        </div>
-                        <h3 class="pixel-font text-sm sm:text-lg mb-2">KYLLE MAE MERCADO</h3>
-                        <div class="contact-details absolute bottom-0 left-0 w-full bg-white p-4 pt-1 flex flex-col items-center">
-                            <p class="text-xs text-gray-600 mb-2 text-center editable-area hover:border-indigo-500 border-2 border-transparent rounded-md" contenteditable="true">
-                                <span class="font-bold">Role:</span>chuchu
-                                <br> <span class="text-xs">kyllemaemercado69@gmail.com</span>
-                            </p>
-                            <div class="flex space-x-4 text-base sm:text-lg">
-                                <a href="https://www.facebook.com/kyllemaeelizaldemercadwe" target = "_blank"><i class="fab fa-facebook"></i></a>
-                                <a href="https://www.instagram.com/_444.mae/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://github.com/kyllemaemercado" target="_blank"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
+          <!-- Contact Card 2 -->
+          <div
+            class="contact-card bg-white p-4 rounded-xl section-shadow flex flex-col items-center"
+          >
+            <div
+              class="w-16 h-16 sm:w-24 sm:h-24 bg-gray-200 rounded-full mb-3 mt-1 flex items-center justify-center text-xs font-semibold text-gray-500"
+            >
+              <img
+                src="images/mercado.png"
+                alt="Kylle's Photo"
+                class="w-full h-full object-cover rounded-full"
+              />
+            </div>
+            <h3 class="pixel-font text-sm sm:text-lg mb-2">MARIA POLINTAN</h3>
+            <div
+              class="contact-details absolute bottom-0 left-0 w-full bg-white p-4 pt-1 flex flex-col items-center"
+            >
+              <p
+                class="text-xs text-gray-600 mb-2 text-center editable-area hover:border-indigo-500 border-2 border-transparent rounded-md"
+                contenteditable="true"
+              >
+                <span class="font-bold">Role:</span> chuchu <br />
+                <span class="text-xs">maria@gmail.com</span>
+              </p>
+              <div class="flex space-x-4 text-base sm:text-lg">
+                <a href="#" class="hover:text-pink-600"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="#" class="hover:text-pink-600"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="hover:text-pink-600"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
 
-                </div>
-            </section>
+          <!-- Contact Card 3 -->
+          <div
+            class="contact-card bg-white p-4 rounded-xl section-shadow flex flex-col items-center"
+          >
+            <div
+              class="w-16 h-16 sm:w-24 sm:h-24 bg-gray-200 rounded-full mb-3 mt-1 flex items-center justify-center text-xs font-semibold text-gray-500"
+            >
+              <img
+                src="images/mercado.png"
+                alt="Kylle's Photo"
+                class="w-full h-full object-cover rounded-full"
+              />
+            </div>
+            <h3 class="pixel-font text-sm sm:text-lg mb-2">RAM MELA</h3>
+            <div
+              class="contact-details absolute bottom-0 left-0 w-full bg-white p-4 pt-1 flex flex-col items-center"
+            >
+              <p
+                class="text-xs text-gray-600 mb-2 text-center editable-area hover:border-indigo-500 border-2 border-transparent rounded-md"
+                contenteditable="true"
+              >
+                <span class="font-bold">Role:</span>chuchu <br />
+                <span class="text-xs">ram@gmail.com</span>
+              </p>
+              <div class="flex space-x-4 text-base sm:text-lg">
+                <a href="#" class="hover:text-pink-600"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="#" class="hover:text-pink-600"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="hover:text-pink-600"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Card 4 -->
+          <div
+            class="contact-card bg-white p-4 rounded-xl section-shadow flex flex-col items-center"
+          >
+            <div
+              class="w-16 h-16 sm:w-24 sm:h-24 bg-gray-200 rounded-full mb-3 mt-1 flex items-center justify-center text-xs font-semibold text-gray-500"
+            >
+              <img
+                src="images/mercado.png"
+                alt="Kylle's Photo"
+                class="w-full h-full object-cover rounded-full"
+              />
+            </div>
+            <h3 class="pixel-font text-sm sm:text-lg mb-2">
+              KYLLE MAE MERCADO
+            </h3>
+            <div
+              class="contact-details absolute bottom-0 left-0 w-full bg-white p-4 pt-1 flex flex-col items-center"
+            >
+              <p
+                class="text-xs text-gray-600 mb-2 text-center editable-area hover:border-indigo-500 border-2 border-transparent rounded-md"
+                contenteditable="true"
+              >
+                <span class="font-bold">Role:</span>chuchu <br />
+                <span class="text-xs">kyllemaemercado69@gmail.com</span>
+              </p>
+              <div class="flex space-x-4 text-base sm:text-lg">
+                <a
+                  href="https://www.facebook.com/kyllemaeelizaldemercadwe"
+                  target="_blank"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com/_444.mae/" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://github.com/kyllemaemercado" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
