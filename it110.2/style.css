@@ -5,6 +5,7 @@
             --color-heart: #ff4d6e;
             --color-bubble-light: #FFF8DC; 
             --color-bubble-border: #db2e59; 
+            --heart-pixel-size: 5px var(--color-accent-dark, #ff69b4);
         }
         
         /* Apply primary font and colors */
@@ -14,13 +15,13 @@
             color: var(--color-accent-dark);
             min-height: 100vh;
         }
-        
-        /* Pixel font for headings and navigational elements */
+        body.app-view-active #contact {
+            display: none;
+        }      
         .pixel-font {
             font-family: 'Press Start 2P', cursive;
         }
         
-        /* Custom section shadow matching the screenshot style */
         .section-shadow {
             box-shadow: 10px 10px 0px 0px var(--color-accent-dark);
             border: 2px solid var(--color-accent-dark);
@@ -40,12 +41,12 @@
         .nav-link.active-view {
             color: white;
             background-color: var(--color-accent-dark);
-            box-shadow: 0 0 5px 2px rgba(229, 45, 91, 0.5);
+            box-shadow: 0 0 5px 2px rgba(244, 55, 102, 0.5);
         }
 
         /* --- Contact Card Hover Effect Implementation --- */
         .contact-card {
-            height: 200px;
+            height: 230px;
             transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
             overflow: hidden;
             position: relative;
@@ -68,7 +69,6 @@
             opacity: 1;
         }
         
-        /* Style for editable areas */
         .editable-area {
             min-height: 20px;
         }
@@ -76,7 +76,33 @@
             outline: none;
             background-color: rgba(255, 255, 255, 0.8);
         }
-
+        .button-center-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; 
+            margin-bottom: 20px;
+        }
+        .pixel-button {
+            display: inline-block;
+            text-decoration: none; 
+            font-family:'Press Start 2P', cursive;
+            font-size: 1.2rem;
+            color: white;
+            background-color: var(--color-accent-dark, #ff69b4); 
+            padding: 12px 30px;
+            border-radius: 50px;
+            box-shadow: 5px 5px 0px 0px var(--color-shadow, #505050);
+            transition: all 0.15s ease-in-out;
+        }
+        .pixel-button:hover {
+            opacity: 0.9;
+            box-shadow: 3px 3px 0px 0px var(--color-shadow, #505050);
+            transform: translate(2px, 2px); 
+        }
+        .pixel-button:active {
+            box-shadow: 0px 0px 0px 0px var(--color-shadow, #505050); 
+            transform: translate(5px, 5px);
+        }
         /* --- PIXEL HEARTS AS BACKGROUND --- */
 
         @keyframes pulse {
@@ -110,7 +136,6 @@
             position: absolute;
         }
 
-        /* 3-block heart shape using 8px blocks */
         .heart-pixel-group > .p1 { top: 0; left: 0; }
         .heart-pixel-group > .p2 { top: 0; left: 8px; }
         .heart-pixel-group > .p3 { top: 8px; left: 4px; }
@@ -121,11 +146,13 @@
         .heart-background-container .heart-3-container { top: 50%; left: 40%; transform: scale(1.8); animation-delay: 1s; }
         .heart-background-container .heart-4-container { bottom: 5%; left: 20%; transform: scale(2.2); animation-delay: 0.7s; }
         .heart-background-container .heart-5-container { top: 30%; right: 5%; transform: scale(1.5); animation-delay: 0.3s; }
+        .heart-background-container .heart-6-container { top: 30%; right: 5%; transform: scale(1.7); animation-delay: 1.3s; }
+
         .footer {
             width: 100%;
             background-color: var(--color-footer-bg);
             color: var(--color-footer-text);
             padding: 16px 0;
             text-align: center;
-            font-size: 10px;
+            font-size: 20px;
         }
