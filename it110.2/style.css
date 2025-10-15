@@ -121,3 +121,11 @@
         .heart-background-container .heart-3-container { top: 50%; left: 40%; transform: scale(1.8); animation-delay: 1s; }
         .heart-background-container .heart-4-container { bottom: 5%; left: 20%; transform: scale(2.2); animation-delay: 0.7s; }
         .heart-background-container .heart-5-container { top: 30%; right: 5%; transform: scale(1.5); animation-delay: 0.3s; }
+        .footer {
+            width: 100%;
+            background-color: var(--color-footer-bg);
+            color: var(--color-footer-text);
+            padding: 16px 0;
+            text-align: center;
+            font-size: 10px;
+        }
