@@ -58,8 +58,8 @@
       <div id="hub-view" class="space-y-12">
         <section
           id="home"
-          class="bg-white p-6 sm:p-10 rounded-xl section-shadow relative overflow-hidden"
-        >
+          class="bg-white p-6 sm:p-10 rounded-xl section-shadow relative overflow-hidden">
+        
           <div class="heart-background-container">
             <div class="heart-pixel-group heart-1-container">
               <div class="heart-pixel p1"></div>
@@ -125,7 +125,7 @@
               <p>
                 We are a collective of passionate developers united by a
                 singular purpose: to build, innovate, and solve complex problems
-                with elegant code. <br />We don't just write code; we architect
+                with elegant code. We don't just write code; we architect
                 scalable, user-centric solutions designed to drive real-world
                 impact and define the next wave of digital transformation.
               </p>
@@ -145,8 +145,8 @@
             class="mb-8 text-center text-gray-700 editable-area p-3 rounded-lg border-2 border-dashed border-transparent hover:border-indigo-500 transition duration-150"
           >
             <p class="text-sm sm:text-lg mb-4">
-              This project is named Random Quote Generator is a digital application designed to display different quotes—often inspirational, humorous, or thought-provoking ones—each time a user interacts with it.<br>
-              It typically works by selecting an item at random from a large, predefined database or list of quotes. In our project, we used API for our Generator.
+              This project is named Random Quote Generator is a digital application designed to display different quotes—often inspirational, humorous, or thought-provoking ones—each time a user interacts with it.</p>
+            <p>  It typically works by selecting an item at random from a large, predefined database or list of quotes. In our project, we used API for our Generator.
             </p>
             <p class="font-bold uppercase text-sm sm:text-lg mb-2">
               Technical Goals Achieved:
@@ -158,9 +158,107 @@
               <li>Ready-to-use text for things like social media posts</li>
             </ul>
           </div>
+          <section id="feature">
+    <div class="button-center-container">
+        <a href="#app" id="goToAppButton" 
+           class="pixel-button"
+           data-view="app-view" 
+           data-target-id="generator">
+            GO TO APP
+        </a>
+    </div>
+</section>
         </section>
       </div>
-            <!-- 2. CONTACT US VIEW -->
+      <!-- 2. APP VIEW -->
+      <section
+        id="app-view"
+        class="bg-white p-6 sm:p-10 rounded-xl section-shadow hidden"
+      >
+        <h2 class="pixel-font text-xl sm:text-2xl text-center mb-8">
+          GENERATE INSPIRATION!
+        </h2>
+
+        <!-- Quote Generator Area -->
+        <div class="text-center mt-12 mb-10">
+          <div
+            id="quote-display"
+            class="bg-white p-4 sm:p-6 rounded-lg border-4 border-dashed border-gray-400 min-h-[100px] flex flex-col justify-center items-center italic text-base sm:text-xl shadow-inner mb-6 transition duration-300"
+          >
+            Click 'Get Quote' to load an inspiring message!
+          </div>
+          <div class="heart-background-container">
+            <div class="heart-pixel-group heart-1-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+            <div class="heart-pixel-group heart-2-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+            <div class="heart-pixel-group heart-3-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+            <div class="heart-pixel-group heart-4-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+            <div class="heart-pixel-group heart-5-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+            <div class="heart-pixel-group heart-6-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+            <div class="heart-pixel-group heart-7-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+            <div class="heart-pixel-group heart-8-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+            <div class="heart-pixel-group heart-9-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+            <div class="heart-pixel-group heart-10-container">
+              <div class="heart-pixel p1"></div>
+              <div class="heart-pixel p2"></div>
+              <div class="heart-pixel p3"></div>
+            </div>
+          </div>
+
+          <div
+            id="quote-author"
+            class="text-right font-semibold text-sm sm:text-lg pr-4 transition duration-300"
+          >
+            — Welcome
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <button
+            id="quote-button"
+            class="text-white pixel-font px-6 sm:px-8 sm:py-4 rounded-full transition all 0.15s ease-in-out hover:opacity -0.9 flex items-center space-x-3"
+            style="background-color: var(--color-accent-dark)"
+          >
+            <span>GET NEW QUOTE</span>
+          </button>
+        </div>
+      </section>
+          <!-- 3. CONTACT US VIEW -->
       <section id="contact" class="p-6">
         <h2 class="pixel-font text-xl sm:text-2xl text-center mb-10">
           MEMBER OF THE TEAM:
@@ -179,7 +277,7 @@
                 class="w-full h-full object-cover rounded-full"
               />
             </div>
-            <h3 class="pixel-font text-sm sm:text-lg mb-2">AIRAH MONTILLANO</h3>
+            <h3 class="pixel-font text-sm sm:text-lg mb-2">AIRAH NICOLE MONTILLANO</h3>
             <div
               class="contact-details absolute bottom-0 left-0 w-full bg-white p-4 pt-1 flex flex-col items-center"
             >
@@ -188,9 +286,6 @@
                 contenteditable="true"
               >
                 <span class="font-bold">Role:</span> Tester/QA <br />
-                <span class="text-xs"
-                  >airahnichole.montillano2000@gmail.com</span
-                >
               </p>
               <div class="flex space-x-4 text-base sm:text-lg">
                 <a href="#" class="hover:text-pink-600"
@@ -202,6 +297,9 @@
                 <a href="#" class="hover:text-pink-600"
                   ><i class="fab fa-github"></i
                 ></a>
+                <a href="https://email.com/airahnichole.montillano2000@gmail.com" target="_blank">
+                  <i class="fab fa-at"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -219,7 +317,7 @@
                 class="w-full h-full object-cover rounded-full"
               />
             </div>
-            <h3 class="pixel-font text-sm sm:text-lg mb-2">MARIA POLINTAN</h3>
+            <h3 class="pixel-font text-sm sm:text-lg mb-2">MARIA NIKKA POLINTAN</h3>
             <div
               class="contact-details absolute bottom-0 left-0 w-full bg-white p-4 pt-1 flex flex-col items-center"
             >
@@ -228,7 +326,6 @@
                 contenteditable="true"
               >
                 <span class="font-bold">Role:</span> chuchu <br />
-                <span class="text-xs">maria@gmail.com</span>
               </p>
               <div class="flex space-x-4 text-base sm:text-lg">
                 <a href="#" class="hover:text-pink-600"
@@ -240,6 +337,9 @@
                 <a href="#" class="hover:text-pink-600"
                   ><i class="fab fa-github"></i
                 ></a>
+                <a href="https://email.com/kyllemaemercado69@gmail.com" target="_blank">
+                  <i class="fab fa-at"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -266,7 +366,6 @@
                 contenteditable="true"
               >
                 <span class="font-bold">Role:</span>chuchu <br />
-                <span class="text-xs">ram@gmail.com</span>
               </p>
               <div class="flex space-x-4 text-base sm:text-lg">
                 <a href="#" class="hover:text-pink-600"
@@ -278,6 +377,9 @@
                 <a href="#" class="hover:text-pink-600"
                   ><i class="fab fa-github"></i
                 ></a>
+                <a href="https://email.com/kyllemaemercado69@gmail.com" target="_blank">
+                  <i class="fab fa-at"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -305,8 +407,7 @@
                 class="text-xs text-gray-600 mb-2 text-center editable-area hover:border-indigo-500 border-2 border-transparent rounded-md"
                 contenteditable="true"
               >
-                <span class="font-bold">Role:</span>Web Designer<br />
-                <span class="text-xs">kyllemaemercado69@gmail.com</span>
+                <span class="font-bold">Role:</span>Web Designer: Design the whole system with pixelated theme. </span>
               </p>
               <div class="flex space-x-4 text-base sm:text-lg">
                 <a
@@ -320,45 +421,13 @@
                 <a href="https://github.com/kyllemaemercado" target="_blank"
                   ><i class="fab fa-github"></i
                 ></a>
+                <a href="https://email.com/kyllemaemercado69@gmail.com" target="_blank">
+                  <i class="fab fa-at"></i>
+                </a>
+                    
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- 3. APP VIEW -->
-      <section
-        id="app-view"
-        class="bg-white p-6 sm:p-10 rounded-xl section-shadow hidden"
-      >
-        <h2 class="pixel-font text-xl sm:text-2xl text-center mb-8">
-          GENERATE INSPIRATION!
-        </h2>
-
-        <!-- Quote Generator Area -->
-        <div class="text-center mt-12 mb-10">
-          <div
-            id="quote-display"
-            class="bg-white p-4 sm:p-6 rounded-lg border-4 border-dashed border-gray-400 min-h-[100px] flex flex-col justify-center items-center italic text-base sm:text-xl shadow-inner mb-6 transition duration-300"
-          >
-            Click 'Get Quote' to load an inspiring message!
-          </div>
-          <div
-            id="quote-author"
-            class="text-right font-semibold text-sm sm:text-lg pr-4 transition duration-300"
-          >
-            — Welcome
-          </div>
-        </div>
-
-        <div class="flex justify-center">
-          <button
-            id="quote-button"
-            class="text-white pixel-font px-6 sm:px-8 py-3 sm:py-4 rounded-full transition duration-300 hover:opacity-90 flex items-center space-x-3 section-shadow"
-            style="background-color: var(--color-accent-dark)"
-          >
-            <span>GET NEW QUOTE</span>
-            <i class="fas fa-arrow-right"></i>
-          </button>
         </div>
       </section>
 
@@ -368,8 +437,6 @@
     </main>
 
     <script src="app.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
-
-
-
