@@ -7,10 +7,10 @@
 **Team Members**
 | Name | Role | Responsibilities |
 |------|------|------------------|
-| **Kylle Mae Mercado** | Web Designer | Designed the entire system with pixelated theme, UI/UX design, visual elements |
-| **Airah Nichole Montillano** | Tester/QA | Quality assurance, bug testing, functionality verification |
-| **Maria Nikka Polintan** | Tester | Testing, bug reporting, user experience testing |
-| **Ramela Chama Pelayo** | Tester | Testing, error handling verification, documentation support |
+| **Kylle Mae Mercado** | CSS Styling & Layout | Designed the entire system with pixelated theme, UI/UX design, visual elements |
+| **Airah Nichole Montillano** | JavaScript & API Integration | Quality assurance, bug testing, functionality verification |
+| **Maria Nikka Polintan** | HTML Structure | Testing, bug reporting, user experience testing |
+| **Ramela Chama Pelayo** | Project Management & Documentation | Testing, error handling verification, documentation support |
 
 ## Project Overview
 The **Random Quote Generator** is a web-based application that displays inspirational, motivational, and thought-provoking quotes to users. The project combines a portfolio-style landing page with a functional quote generation app, showcasing both frontend design skills and API integration capabilities.
