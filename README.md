@@ -7,10 +7,10 @@
 **Team Members**
 | Name | Role | Responsibilities |
 |------|------|------------------|
-| **Kylle Mae Mercado** | CSS Styling & Layout | Designed the entire system with pixelated theme, UI/UX design, visual elements |
-| **Airah Nichole Montillano** | JavaScript & API Integration | Quality assurance, bug testing, functionality verification |
-| **Maria Nikka Polintan** | HTML Structure | Testing, bug reporting, user experience testing |
-| **Ramela Chama Pelayo** | Project Management & Documentation | Testing, error handling verification, documentation support |
+| **Kylle Mae Mercado** | CSS Styling & Layout | Implemented the UI/UX design using CSS, managed the responsive layout, and styled all visual elements and theme components. |
+| **Airah Nichole Montillano** | Wrote all JavaScript code for interactivity, managed API integration for data handling, and implemented dynamic functionality. |
+| **Maria Nikka Polintan** | HTML Structure | Developed the core structure of all pages using semantic HTML, ensuring accessibility standards and proper content organization. |
+| **Ramela Chama Pelayo** | Project Management & Documentation | Coordinated team tasks and deadlines, managed the project scope, and created all technical documentation and user guides. |
 
 ## Project Overview
 The **Random Quote Generator** is a web-based application that displays inspirational, motivational, and thought-provoking quotes to users. The project combines a portfolio-style landing page with a functional quote generation app, showcasing both frontend design skills and API integration capabilities.
