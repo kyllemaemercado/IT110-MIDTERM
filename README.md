@@ -8,7 +8,7 @@
 | Name | Role | Responsibilities |
 |------|------|------------------|
 | **Kylle Mae Mercado** | CSS Styling & Layout | Implemented the UI/UX design using CSS, managed the responsive layout, and styled all visual elements and theme components. |
-| **Airah Nichole Montillano** | Wrote all JavaScript code for interactivity, managed API integration for data handling, and implemented dynamic functionality. |
+| **Airah Nichole Montillano** | JavaScript & API Integration | Wrote all JavaScript code for interactivity, managed API integration for data handling, and implemented dynamic functionality. |
 | **Maria Nikka Polintan** | HTML Structure | Developed the core structure of all pages using semantic HTML, ensuring accessibility standards and proper content organization. |
 | **Ramela Chama Pelayo** | Project Management & Documentation | Coordinated team tasks and deadlines, managed the project scope, and created all technical documentation and user guides. |
 
